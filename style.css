@@ -1,0 +1,79 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+a h1{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 100px;
+    color:black;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.task-input{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:100px;
+}
+
+.task-input input[type="text"]{
+    width:50%;
+    padding:15px;
+    border-radius:25px;
+    border: 5px dashed black;
+    margin-right:25px;
+    font-family:'Nanum Pen Script', cursive;
+    font-size:30px;
+}
+
+.tasks-added{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.task{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    font-size:75px;
+}
+
+.task p{
+    margin:0 100px;
+    border-bottom:2px solid black;
+}
+
+.rmv-button{
+    background-color:whitesmoke;
+    font-family:'Nanum Pen Script', cursive;
+    color:purple;
+    font-size:30px;
+    border:none;
+} 
+
+input[type="checkbox"]{
+    width:50px;
+    height:50px;
+}
+
+#addTask{
+    font-family:'Nanum Pen Script', cursive;
+    color:Purple;
+    font-size:50px;
+    border:none;
+}
