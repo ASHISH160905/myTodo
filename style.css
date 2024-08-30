@@ -51,6 +51,7 @@ a h1{
     justify-content: center;
     margin:auto;
     font-size:75px;
+    padding-top:10px;
 }
 
 .task p{
